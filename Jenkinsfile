@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label ('node1')
+    label ('built-in')
   }
   stages{
 stage('game-of-life'){
